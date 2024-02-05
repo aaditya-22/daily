@@ -1,5 +1,5 @@
 const express = require("express")
-const jwt = require("jsonwebtoken")  //jwt
+const jwt = require("jsonwebtoken")  
 const jwtPassword = "12345" 
 
 const app = express()   
