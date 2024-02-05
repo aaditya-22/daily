@@ -1,8 +1,8 @@
 const express = require("express")
-const jwt = require("jsonwebtoken")  //importing jwt
+const jwt = require("jsonwebtoken")  
 const jwtPassword = "12345" 
 
-const app = express()   //aditya swmai
+const app = express()   
 app.use(express.json())
 
 var ALLUSERS = [
